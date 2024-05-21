@@ -1,6 +1,6 @@
-Simple app for viewing weather. 
+# Simple app for viewing weather. 
 
-Languages used: 
-  HTML
-  CSS
-  JavaScript
+## Languages used: 
+  -HTML
+  -CSS
+  -JavaScript

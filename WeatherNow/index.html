@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href='style.css'  type="text/css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+  <title>WeatherNow</title>
+</head>
+<body>
+<div class="bg">
+<div id="scroll">
+  <div id="container">
+  <header>
+      <img src="logo.png" height="10%" width="10%">
+  </header>
+  <div class="mapStyle">
+  <div id="map"></div>
+  </div>
+    <main>
+      <div class="bar">
+        <ul class="menu" id="menu">
+          <li><input id="search" type="text" placeholder="London"></input></li>
+          <li id="insert"><p>Search</p></li>
+          <li id="langList"><p>Status language</p>
+          <div id="langStatus" class="dropdown">
+          </div></li>
+          <li id="mapList"><p>Map type</p>
+          <div id="mapType" class="dropdown">
+          </div></li>
+          <a href="#aboutUs">
+          <li id="aboutUsBtn"><p>About us</p></li>
+          </a>
+        </ul>
+      </div>
+      <div class="blocks">
+        <ul id="blocksList">
+        </ul>
+      </div>
+    <article id="aboutUs" class="aboutUs">
+      <h3>About us</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et mollis purus. Vivamus nibh justo, vehicula eu faucibus et, vulputate id felis. Donec nec justo non velit faucibus viverra ut ut tortor. Curabitur convallis euismod volutpat. Donec facilisis viverra ante nec hendrerit. Integer porta ac augue quis ullamcorper. Etiam lacus magna, semper sed odio ut, maximus consectetur metus. Aliquam vel faucibus purus.</p>
+        <p>Pellentesque varius ut augue et laoreet. Sed dapibus tortor urna, semper egestas tortor maximus ut. Curabitur sollicitudin faucibus viverra. Quisque egestas a lorem eu consectetur. Phasellus feugiat posuere eros, eget faucibus libero pharetra ac. Suspendisse mollis condimentum pulvinar. Cras suscipit justo mollis nisi ornare, sit amet rutrum enim ornare. Praesent tortor metus, laoreet pellentesque nunc vitae, pulvinar sodales eros. Praesent tempor sagittis risus eget tincidunt. Nam at tempus purus. Nulla rutrum quam quis lectus posuere hendrerit. Vivamus sodales, felis sed sodales ornare, nisl dolor convallis enim, blandit pretium odio diam id neque. Mauris nec sollicitudin nisl. In in consequat quam. </p>
+    </main>
+    <footer>
+        <p>Instructions: Optionally select status language and map type, then insert a city and press search button.</p>
+    </footer>
+  </div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
